@@ -4,5 +4,5 @@ for(var i = 1; i < 101; i++){
   document.getElementById('list').appendChild(li);
 };
 document.getElementById('form').onsubmit = function(){
-  window.alert('!');
+  window.alert(document.getElementById('!').word.value);
 };
